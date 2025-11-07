@@ -68,13 +68,20 @@ h2 {
   text-align: center;
   font-size: 40px;
 }
+
 #profile-image {
   border-radius: 50%;
   height: 200px;
   width: 200px;
   border: 1px solid var(--name-heading);
 }
-
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+  background: none;
+  text-decoration: none;
+  color: var(--logo);
+}
 .flex-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
