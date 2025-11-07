@@ -5,6 +5,8 @@
   --name-heading: #3a1078;
   --main-heading: #8f87f1;
   --content-heading: #ff8383;
+  --table-heading: #fba518;
+  --nav-bg: #210f37;
 }
 * {
   margin: 0;
@@ -24,7 +26,7 @@ body {
 
 /* header  */
 header {
-  padding: 10px 30px;
+  padding: 10px 50px;
 }
 #profile-logo {
   list-style: none;
@@ -37,12 +39,16 @@ header {
 }
 #profile-logo:hover {
   letter-spacing: 0.5rem;
-  color: var(--nav-bg);
+  color: var(--table-heading);
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 20px;
+  cursor: pointer;
+  background: var(--nav-bg);
+  border-radius: 10px;
 }
 
 ul {
@@ -63,8 +69,10 @@ h2 {
   font-size: 40px;
 }
 #profile-image {
+  border-radius: 50%;
   height: 200px;
   width: 200px;
+  border: 1px solid var(--name-heading);
 }
 
 .flex-container {
@@ -80,7 +88,7 @@ h2 {
   width: 500px;
   padding: 10px 25px;
 
-  font-size: 14px;
+  font-size: 16px;
 }
 h3 {
   padding: 10px 0px;
@@ -89,7 +97,7 @@ h3 {
 h4 {
   padding: 4px 0px;
   color: black;
-  font-size: 13px;
+  font-size: 14px;
 }
 .profile-experience {
   margin-left: -45px;
@@ -104,7 +112,20 @@ th,
 td {
   padding: 3px;
 }
+th {
+  color: var(--table-heading);
+  text-align: center;
+}
 
+th:hover {
+  background-color: var(--logo);
+  border-radius: 5px;
+}
+
+table {
+  border: 1px solid var(--content-heading);
+  border-radius: 6px;
+}
 /* footer */
 .footer {
   text-align: center;
