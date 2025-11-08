@@ -28,6 +28,7 @@ body {
 header {
   padding: 10px 50px;
 }
+
 #profile-logo {
   list-style: none;
   color: var(--logo);
@@ -36,6 +37,7 @@ header {
   font-weight: bolder;
   text-decoration: none;
   transition: all 200mx ease-in-out;
+  height: 500px;
 }
 #profile-logo:hover {
   letter-spacing: 0.5rem;
@@ -62,6 +64,9 @@ li a {
 }
 
 /* main section */
+.flex-container {
+  height: 500px;
+}
 h2 {
   color: var(--name-heading);
   font-family: "Moon Dance", cursive;
@@ -77,8 +82,8 @@ h2 {
 }
 .social-links {
   display: flex;
-  justify-content: flex-start;
-  background: none;
+  justify-content: first baseline;
+
   text-decoration: none;
   color: var(--logo);
 }
@@ -100,11 +105,17 @@ h2 {
 h3 {
   padding: 10px 0px;
   color: var(--main-heading);
+  font-size: 18px;
+}
+/* specific h4 tags font and color chnage */
+#headings {
+  color: #810ca8;
+  font-size: 18px;
 }
 h4 {
   padding: 4px 0px;
   color: black;
-  font-size: 14px;
+  font-size: 15px;
 }
 .profile-experience {
   margin-left: -45px;
