@@ -1,8 +1,8 @@
-# 🚀Personal Profile Page — Using HTML & CSS
+# 🚀 Profile Page — Using HTML & CSS
 
 ### 👩‍💻 Project Overview
 
-This project is a **personal profile webpage** designed using **HTML5** and **CSS3**, applying all the foundational and intermediate concepts I’ve learned so far — including:
+This project is a ** profile page** designed using **HTML5** and **CSS3**, applying all the foundational and intermediate concepts I’ve learned so far — including:
 
 - Semantic HTML structure
 - CSS variables (`:root`)
